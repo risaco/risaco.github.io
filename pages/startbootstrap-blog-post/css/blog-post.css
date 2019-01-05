@@ -21,10 +21,14 @@ img#homeLogo {
 	max-width:15%
 }
 
-h3.decor {
+.decor {
 	font-family: 'Homemade Apple', cursive;
 	text-align: center;
+}
 
+.decor-1 {
+	font-family: 'Homemade Apple', cursive;
+	max-width: 30%;
 }
 
 p {
