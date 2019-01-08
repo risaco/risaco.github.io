@@ -1,0 +1,38 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+img#homeLogo {
+	max-width:15%;
+}
+
+.decor {
+	font-family: 'Homemade Apple', cursive;
+	text-align: center;
+}
+
+.decor-1 {
+	font-family: 'Homemade Apple', cursive;
+	max-width: 30%;
+}
+
+ul.list-inline{margin-top:0;margin-bottom:30px}
+
+ul.social-buttons{margin-bottom:0}
+ul.social-buttons li a{font-size:20px;line-height:40px;display:block;width:40px;height:40px;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s;color:#fff;border-radius:100%;outline:0;background-color:#212529}ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li a:hover{background-color:#fed136}
+
+.list-inline-item {
+  display: inline-block;
+}
