@@ -27,3 +27,9 @@ img#homeLogo {
 	font-family: 'Homemade Apple', cursive;
 	max-width: 30%;
 }
+
+ul.list-inline{margin-top:0;margin-bottom:30px}
+
+.list-inline-item {
+  display: inline-block;
+}
