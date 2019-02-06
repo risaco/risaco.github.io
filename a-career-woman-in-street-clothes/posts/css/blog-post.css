@@ -11,12 +11,6 @@ body {
   padding-top: 54px;
 }
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
-}
-
 img#homeLogo {
 	max-width:15%
 }
@@ -42,4 +36,59 @@ ul.social-buttons li a{font-size:20px;line-height:40px;display:block;width:40px;
 
 .list-inline-item {
   display: inline-block;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+	.decor-1 {
+		max-width:50%;
+	}
+
+	#header-title {
+		font-size:3.5vw;
+	}
+}
+
+@media (min-width: 600px) {
+	.decor-1 {
+		max-width:50%;
+	}
+
+	#header-title {
+		font-size:3vw;
+	}
+}
+
+@media (min-width: 768px) {
+	.decor-1 {
+		max-width:40%;
+	}
+
+	#header-title {
+		font-size:2.5vw;
+	}
+}
+
+@media (min-width: 992px) {
+	body {
+    	padding-top: 56px;
+  	}
+
+	.decor-1 {
+		max-width:40%;
+	}
+
+	#header-title {
+		font-size:2vw;
+	}
+}
+
+@media (min-width: 1200px) {
+	.decor-1 {
+		max-width:30%;
+	}
+
+	#header-title {
+		font-size:2vw;
+	}
 }
