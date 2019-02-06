@@ -16,3 +16,9 @@
 	font-family: 'Homemade Apple', cursive;
 	text-align: center;
 }
+
+@media (max-width: 600px){
+	.modal-iframe {
+		height:200px;
+	}
+}
