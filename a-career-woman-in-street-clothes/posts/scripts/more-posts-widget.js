@@ -5,40 +5,40 @@ var blogPosts = [
     {
       title: "Resolutions are Just Fancy Goals",
       snippet: "I gave up New Year’s resolutions two years ago in favor of mantras. Previous years proved to me that I wasn’t working on anything I “resolved” to do. So, in 2017, I decided to change my approach, and it has stuck with me ever since.",
-      url: "blog-posts/2019-01/resolutions-are-fancy-goals.html",
-      img: "images/resolutions.jpg",
+      url: "../2019-01/resolutions-are-fancy-goals.html",
+      img: "../../images/resolutions.jpg",
       postdate: "February 27, 2019",
-      style: "lightStyle"
+      style: "darkStyle"
     },
     {
       title: "5 Things I Learned in Bootcamp",
       snippet: "I didn’t take the college road to becoming a software engineer. I went to college to become a rocket scientist, and I hold a B.S. in Physics for my efforts. Although aerospace engineering hasn’t become a reality for me as of yet, I am not particularly dismayed.",
-      url: "blog-posts/2019-01/things-learned-in-bootcamp.html",
-      img: "images/tilib-1.jpeg",
+      url: "../2019-01/things-learned-in-bootcamp.html",
+      img: "../../images/tilib-1.jpeg",
       postdate: "January 31, 2019",
       style: "darkStyle"
     },
     {
       title: "Inclusion 2019 Workshop Review",
       snippet: "I spent my morning with Dr. Shirley Davis in an amazing diversity & inclusion workshop hosted by Nonprofit Connect</a> at the Kauffman Foundation Conference Center in Kansas City, Missouri. We broke down the difference between diversity and inclusion, why you need both, and how to achieve both in an organization",
-      url: "blog-posts/2019-01/inclusion-2019-review.html",
-      img: "images/inclusion-2019-review-1.jpg",
+      url: "../2019-01/inclusion-2019-review.html",
+      img: "../../images/inclusion-2019-review-1.jpg",
       postdate: "January 30, 2019",
       style: "darkStyle"
     },
     {
       title: "5 More Things I Learned in Bootcamp",
       snippet: "I mentioned in a previous post that  I took the non-traditional road to becoming a software engineer by attending a coding bootcamp, and that I did manage to learn a few tech-ish things. Well, I also learned quite a few non-tech things during the course of the program.",
-      url: "blog-posts/2019-01/more-things-learned-in-bootcamp.html",
-      img: "images/more-tilib-1.jpg",
+      url: "../2019-01/more-things-learned-in-bootcamp.html",
+      img: "../../images/more-tilib-1.jpg",
       postdate: "January 14, 2019",
       style: "darkStyle"
     },
     {
       title: "My First Conference Speaking Experience",
       snippet: "One of my goals for 2019 is to speak at 2-3 conferences. I am happy to report that I successfully completed my first conference speaking engagement on Saturday, February 9, 2019 at DevFest KC on the campus of the University of Missouri-Kansas City!",
-      url: "blog-posts/2019-02/devfestkc-2019.html",
-      img: "images/devfest-kc-1.jpg",
+      url: "../2019-02/devfestkc-2019.html",
+      img: "../../images/devfest-kc-1.jpg",
       postdate: "January 8, 2019",
       style:"darkStyle"
     }
