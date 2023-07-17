@@ -20,6 +20,9 @@
     &:hover {
       color: darken($primary, 10%);
     }
+    #homeLogo {
+      height: auto;
+    }
   }
   .navbar-nav {
     .nav-item {
