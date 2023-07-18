@@ -1,5 +1,5 @@
 .portfolio-item .portfolio-link {
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 3 / 2;
     
     & img.img-fluid {
         height: 100%;
