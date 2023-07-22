@@ -1,3 +1,67 @@
+.navbar {
+    min-height: 60px;
+}
+
+a,
+.btn-primary,
+.navbar-toggler {
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+#mainNav.navbar-expand-lg,
+#mainNav.navbar-expand-lg.navbar-shrink {
+    .navbar-brand {
+        line-height: 0;
+        margin: 0;
+        padding: 8px 0;
+
+        @media (min-width: 992px) {
+            padding: 12px;
+        }
+    }
+}
+
+#mainNav .navbar-toggler {
+    display: block;
+    font-size: 1.5rem;
+    min-width: 40px;
+    min-height: 40px;
+    padding: 0.5rem;
+    text-align: center;
+
+    @media (min-width: 992px) {
+        display: none;
+    }
+}
+
+img#homeLogo {
+    filter: invert(1);
+    width: 2.625rem;
+    transition: transform 0.1s ease-in;
+
+    &:hover,
+    &:focus {
+        filter: drop-shadow(0.75px 0.75px 1.5px #fff) drop-shadow(0px 0px 6px #fed136);
+        transform: scale(1.2);
+    }
+}
+
+.timeline > li .timeline-image {
+    text-shadow: 1px 1px 2px black;
+
+   & img.rounded-circle.img-fluid {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+img.tech-icon {
+    width: 4.5rem;
+    height: 4.5rem;
+    padding: 4px;
+}
+
 .portfolio-item .portfolio-link {
     
     & img.img-fluid {
@@ -22,5 +86,26 @@
         max-width: 65%;
         min-width: 21rem;
         max-height: 21rem;
+    }
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    text-shadow: 1px 1px 2px black;
+}
+
+ul.social-buttons li a {
+    & i {
+        text-shadow: 1px 1px black;
+        transition: transform 0.2s ease-in;
+    }
+    
+    &:hover,
+    &:focus {
+        background-color: unset;
+
+        & i {
+            transform: scale(1.5);
+            filter: invert(1) drop-shadow(0px 0px 6px #fed136);
+        }
     }
 }
