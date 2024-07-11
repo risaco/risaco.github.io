@@ -34,8 +34,8 @@
     "startbootstrap-blog-post": "^4.1.1"
   },
   "devDependencies": {
-    "browser-sync": "2.18.13",
-    "gulp": "^3.9.1",
+    "browser-sync": "2.29.3",
+    "gulp": "^5.0.0",
     "gulp-clean-css": "3.9.0",
     "gulp-header": "1.8.9",
     "gulp-rename": "^1.2.2",
