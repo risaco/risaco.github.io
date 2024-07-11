@@ -39,7 +39,7 @@
   ],
   "dependencies": {
     "bootstrap": "4.3.1",
-    "jquery": "3.3.1"
+    "jquery": "3.5.0"
   },
   "deprecated": false,
   "description": "A basic blog post HTML template built with Bootstrap",
